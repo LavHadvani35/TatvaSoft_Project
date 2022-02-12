@@ -1,0 +1,114 @@
+/*Product Listing Css Style*/
+* {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .product {
+    float: left;
+    width: 23%;
+    border-radius: 2%;
+    margin: 1%;
+  }
+  
+  .product:hover {
+    box-shadow: 1.5px 1.5px 2.5px 3px;
+    -webkit-box-shadow: 1.5px 1.5px 2.5px 3px;  
+    -moz-box-shadow:    1.5px 1.5px 2.5px 3px;
+  }
+
+  .pagination {
+    display: inline-block;
+    left: 380px;
+  }
+
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+
+  .pagination a.active {
+    background-color: #f14d54;
+    color: white;
+  }
+  
+  .image-box {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2% 2% 0 0;
+  }
+  
+  .images {
+    height: 15em;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    border-radius: 2% 2% 0 0;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+  }
+  
+  .images:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+    border-radius: 2%;
+  }
+  
+  /* IMAGES */
+  #image-1 {background-image: url("C:\\Users\\Dell\\Documents\\Intership\\html\\images\\w1.jpg");}
+  
+  #image-2 {background-image: url("C:\\Users\\Dell\\Documents\\Intership\\html\\images\\w2.jpg")}
+  
+  #image-3 {background-image: url("C:\\Users\\Dell\\Documents\\Intership\\html\\images\\w3.jpg")}
+  
+  #image-4 {background-image: url("C:\\Users\\Dell\\Documents\\Intership\\html\\images\\w4.jpg")}
+  
+  #image-5 {background-image: url("C:\\Users\\Dell\\Documents\\Intership\\html\\images\\w5.jpg")}
+  
+  #image-6 {background-image: url("C:\\Users\\Dell\\Documents\\Intership\\html\\images\\w6.jpg")}
+  
+
+  .text-box {
+    width: 100%;
+    float: left;
+    border: 0.01em solid #dddbdb;
+    border-radius: 0 0 2% 2%;
+    padding: 1em;
+  }
+  
+  h2, h3 {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 0.2em auto;
+  }
+  
+  .item, .price {
+    clear: left;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .price {
+    color: Grey;
+  }
+  
+  .description, label, button, input {
+    float: left;
+    clear: left;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    margin: 0.2em auto;
+  }
